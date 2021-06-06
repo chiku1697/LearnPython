@@ -5,13 +5,13 @@
 
 #1
 
-count = 0
-string = 'Python is a preferred programming language in today world of informations'
-in_value =input('which character you want to count: ')
-for i in string.lower():
-    if i == in_value.lower():
-        count = count + 1
-print(count)
+##count = 0
+##string = 'Python is a preferred programming language in today world of informations'
+##in_value =input('which character you want to count: ')
+##for i in string.lower():
+##    if i == in_value.lower():
+##        count = count + 1
+##print(count)
 
 
 #2
@@ -22,3 +22,8 @@ print(count)
 ##    if i == 'p':
 ##        count = count + 1
 ##print(count)
+
+
+#3
+string = 'Python is a preferred programming language in today world of informations'
+print(string.count('p'))
