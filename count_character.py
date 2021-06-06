@@ -26,4 +26,4 @@
 
 #3
 string = 'Python is a preferred programming language in today world of informations'
-print(string.count('p'))
+print(string.lower().count('p'))
